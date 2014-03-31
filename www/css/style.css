@@ -1,0 +1,211 @@
+@font-face {
+	font-family:		'Sintony';
+	font-style:		normal;
+	font-weight:		400;
+	src:			local('Sintony'), url('/css/sintony.woff') format('woff');
+}
+
+@font-face {
+	font-family:		'Cinzel Decorative';
+	font-style:		normal;
+	font-weight:		400;
+	src:			local('CinzelDecorative-Regular'), url('/css/cinzel_decorative_regular.woff') format('woff');
+}
+
+body {
+	font-family:		'Arial',sans-serif;
+	background-color:	black;
+	color: 			#d0d0d0;
+	margin:			0px;
+	padding:		0px;
+}
+
+table {
+	border:			2px solid #333333;
+	padding:		0px;
+	margin:			5px;
+	background-color:	black;
+}
+
+.form_table {
+	border: 		10px solid #111111;
+	padding: 		5px;
+	border-opacity:		1;
+	margin:			0 auto;
+	opacity:		0.8;
+}
+.data_table {
+	border: 		10px solid #111111;
+	padding: 		5px;
+	border-opacity:		1;
+	margin:			0 auto;
+	opacity:		0.8;
+}
+
+.center_div {
+text-align: center;
+
+    top:0;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+
+    margin: 0 auto;
+}
+
+th {
+	background-color:	#333333;
+	color:			white;
+	font-size:		10pt;
+}
+
+h1 {
+	text-align:		center;
+	font-family:		'Cinzel Decorative','Sintony','Georgia','Times',serif;
+	background-color:	#111111;
+	color:			white;
+	border-width:		0px 0px 1px 0px;
+	border-style:		dashed;
+	border-color:		grey;
+	margin:			0;
+}
+
+h2 {
+	margin:			5px;
+	font-weight:		bold;
+	color:			white;
+	font-size:		24pt;
+	text-align:		center;
+	font-family:		'Sintony','Georgia','Times',serif;
+	text-shadow:		2px 2px #993300;
+/*	background-color:	#000011;*/
+	opacity:		0.8;
+}
+
+dt {
+/*	font-size:		11pt; */
+	font-weight:		bold;
+} 
+
+dd {
+	font-size:		10pt;
+}
+
+td {
+	font-family:		'Arial',sans-serif;
+	font-size:		10pt;
+}
+
+form td {
+	vertical-align:		text-top;
+	text-align:		left;
+}
+
+.form_label_td {
+	text-align:		right;
+	font-style:		italic;
+	vertical-align: 	text-top;
+}
+
+.input_currency {
+	font-family:		'Courier New','Courier','Terminal',monospace;
+	font-size:		10pt;
+	font-weight:		bold;
+	text-align: 		right;
+	background-color:	white;
+	color:			black;
+}
+.input_currency_error {
+	font-family:		'Courier New','Courier','Terminal',monospace;
+	font-size:		10pt;
+	font-weight:		bold;
+	text-align: 		right;
+	border: 		1px dotted red;
+	background-color:	#ffdddd;
+	color:			black;
+}
+
+.submit_button {
+	width:			100px;
+	font-weight: 		bold;
+	font:			10pt bold 'Arial',sans-serif;
+}
+.content {
+	padding:		10px;
+	margin:			0px;
+	background-image:	url('/images/body-bg.gif');
+}
+.tr_even {
+	background-color:	#222222;	
+}
+.tr_odd {
+	background-color:	#111111;	
+}
+.stream_name_td {
+	font-family:		'Terminal','Courier','Courier New',monospace;
+	font-size:		10pt;
+	text-align:		left;
+}
+.stream_name_span {
+/* 	background-color:	#222222; */
+	color:			#FFCC66;
+	padding:		1px;
+}
+.currency_td {
+	font-family:		'Terminal','Courier','Courier New',monospace;
+	font-size:		10pt;
+	text-align:		right;
+	padding-left: 		5px;
+	padding-right:		5px;
+}
+.id_td {
+	font-family:		'Terminal','Courier','Courier New',monospace;
+	font-size:		10pt;
+	text-align:		right;
+	padding-left: 		5px;
+	padding-right:		5px;
+}
+.description_td {
+	font-family:		'Arial',sans-serif;	
+	font-size:		10pt;
+	text-align:		left;
+}
+.date_td {
+	font-family:		'Terminal','Courier','Courier New',monospace;
+	font-size:		10pt;
+	text-align:		center;
+	padding-left: 		5px;
+	padding-right:		5px;
+}
+.currency_span {
+	color:			white;
+	padding:		1px;
+}
+.info_box {
+	border:			1px dotted white;
+	background-color:	#004400;
+	color:			white;
+/*	width:			100%;*/
+	font-weight:		bold;
+	text-align:		center;
+	padding:		10px;
+}
+.error_box {
+	border:			1px dotted red;
+	background-color:	#440000;
+	color:			white;
+	width:			100%;
+	font-weight:		bold;
+}
+#footer {
+	clear: both;
+	position: relative;
+	z-index: 10;
+	height: 3em;
+	margin-top: 0em;
+	text-align: right;
+	font-size: 8pt;
+	background-color: black;
+	color: grey;
+}
+
